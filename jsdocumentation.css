@@ -92,7 +92,7 @@ section.main-section header{
 
 /**************************************************** MEDIA QUERIES ***********************************************/
 
-@media screen and ( max-width: 815px){
+@media( max-width: 815px){
 
 nav#navbar ul{
     border-bottom: 1px soild #4D4E53;
@@ -114,7 +114,7 @@ nav#navbar ul{
   }
 }
 
-@media screen and (max-width: 400px){
+@media(max-width: 400px){
 
   #main-doc{
     margin-left: -10px;
