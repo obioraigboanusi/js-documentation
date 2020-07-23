@@ -32,7 +32,7 @@ code{
 }
 /***********************************    ID    **********************************************************************/
 
-#navbar{
+.navbar{
   position: fixed;
   top: 0;
   left: 0;
@@ -43,14 +43,14 @@ code{
   border-color: #99A2A2;
 }
 
-#navbar > ul{
+.navbar > ul{
   list-style-type: none;
   padding: 0;
   height: 88%;
   overflow-y: auto;
   overflow-x: hidden;
 }
- #navbar > ul > li{
+ .navbar > ul > li{
   padding: 10px 30px 10px 30px;
   position: relative;
   width: 100%;
@@ -58,7 +58,7 @@ code{
   border-top: 1px solid #4D4E53;
 }
 
-#navbar > header{
+.navbar > header{
   color: black;
   margin: 10px;
   font-size: 28px;
@@ -66,13 +66,13 @@ code{
   text-align: center;
 }
 
-#navbar > ul > li > a{
+.navbar > ul > li > a{
    color: #4d4e53;
    display: block;
    text-decoration: none;
 }
 
-#main-doc{
+.main-doc{
   position: relative;
   margin-left: 310px;
   margin-bottom: 110px;
@@ -94,12 +94,12 @@ code{
 
 @media( max-width: 815px){
 
-#navbar > ul{
+.navbar > ul{
     border-bottom: 1px soild #4D4E53;
     height: 207px;
   }
 
-#navbar{
+.navbar{
     width: 100%;
     position: absolute;
     top: 0;
@@ -107,7 +107,7 @@ code{
     padding: 0;
     margin: 0;
   }
-  #main-doc{
+  .main-doc{
     position: relative;
     margin-top: 300px;
     margin-left: 0px;
@@ -116,7 +116,7 @@ code{
 
 @media(max-width: 400px){
 
-  #main-doc{
+  .main-doc{
     margin-left: -10px;
   }
 
